@@ -40,11 +40,11 @@ features                                  :
 
   - title                                 : Race your Drone
     description                           : Fly the track you like!
-    fontawesome_icon_name                 : drone
+    fontawesome_icon_name                 : arrows-spin
     
   - title                                 : Controlled by voice
     description                           : When you can't use your hands, use your voice!
-    fontawesome_icon_name                 : head-side-speak
+    fontawesome_icon_name                 : microphone-lines
 
   - title                                 : Easy and quick setup
     description                           : No need for a complicated setup. Just start the app and start racing.
@@ -52,7 +52,7 @@ features                                  :
 
   - title                                 : Get acoustic feedback
     description                           : When your eyes are covert by your goggles, you get confirmation.
-    fontawesome_icon_name                 : ear-waveform
+    fontawesome_icon_name                 : ear-listen
     
   - title                                 : Customizable
     description                           : You can change the sounds and even the words to command the app. 
