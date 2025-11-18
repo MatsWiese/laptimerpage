@@ -46,6 +46,10 @@ features                                  :
     description                           : When you can't use your hands, use your voice!
     fontawesome_icon_name                 : head-side-speak
 
+  - title                                 : Easy and quick setup
+    description                           : No need for a complicated setup. Just start the app and start racing.
+    fontawesome_icon_name                 : truck-fast   
+
   - title                                 : Get acoustic feedback
     description                           : When your eyes are covert by your goggles, you get confirmation.
     fontawesome_icon_name                 : ear-waveform
