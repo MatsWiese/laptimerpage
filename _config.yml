@@ -90,11 +90,11 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#00ffff"
 feature_text_color                        : "#ffffff"
 
-feature_icons_foreground_color            : "#00ffff"
+feature_icons_foreground_color            : "#00ffff" 
 feature_icons_background_color            : "#666666"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#00ff66" # "#666666"
+social_icons_background_color             : "#003cff" # "#e6e6e6"
 
 footer_text_color                         : "#00ffff"
 
