@@ -10,5 +10,5 @@ The HandsfreeLaptimer=app don't collect, store, transmit or sell your data, exce
 If you contact us by email, your address will never be shared by us and only used to answer you.
 
 # Contact Us
-If you have any questions about this Privacy Policy, You can contact us:
+If you have any questions about this Privacy Policy, you can contact us:
 - By email: handsfreelaptimer (at) gmail.com
