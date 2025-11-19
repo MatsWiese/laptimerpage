@@ -21,7 +21,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Mats Wiese                               
-your_link                                 : matswiese.app                  
+your_link                                 :                  
 your_city                                 :                                
 email_address                             : handsfreelaptimer@gmail.com
 linkedin_username                         :                                           
@@ -88,7 +88,7 @@ app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
 feature_title_color                       : "#00ffff"
-feature_text_color                        : "#e6e6e6"
+feature_text_color                        : "#ffffff"
 
 feature_icons_foreground_color            : "#00ffff"
 feature_icons_background_color            : "#666666"
@@ -96,7 +96,7 @@ feature_icons_background_color            : "#666666"
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#00ffff"
 
 
 
