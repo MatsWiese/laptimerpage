@@ -505,7 +505,8 @@ nav > ul li a:active {
 }
 
 .iconBack {
-	color: $feature-icons-background-color;
+	color: #000000;
+	// color: $feature-icons-background-color;
 }
 
 .iconTop {
@@ -525,7 +526,8 @@ nav > ul li a:active {
 }
 
 .featureText > h3 {
-	color: $feature-title-color;
+	// color: $feature-title-color;
+	color: #fff000;
 }
 
 .featureText > p {
