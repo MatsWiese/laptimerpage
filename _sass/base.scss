@@ -3,7 +3,7 @@ $content-width: 1170px;
 
 // Fonts and sizes
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$primary-text-color: #000000;
+$primary-text-color: #0000ff;
 
 html {
 	font-size: 62.5%;
@@ -17,8 +17,8 @@ body {
 }
 
 .subPageBody {
-	// background-color: #fff;
-	background-color: #000;
+	background-color: #fff;
+	// background-color: #ff0000;
 }
 
 h1 {
