@@ -77,11 +77,11 @@ cover_image                               : assets/headerimage.jpg              
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : blue                                      # Set to: blue, black, yellow, coral or white.
+device_color                              : white                                      # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#000000"
 
-link_color                                : "#00ffff"
+link_color                                : "#e6e6e6" # "#666666"
 
 app_title_color                           : "#00ffff"
 app_price_color                           : "#ffffff"
@@ -93,10 +93,10 @@ feature_text_color                        : "#ffffff"
 feature_icons_foreground_color            : "#00ffff" 
 feature_icons_background_color            : "#666666"
 
-social_icons_foreground_color             : "#00ff66" # "#666666"
-social_icons_background_color             : "#003cff" # "#e6e6e6"
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#00ffff"
+footer_text_color                         : "#666666" # "#e6e6e6"
 
 
 
