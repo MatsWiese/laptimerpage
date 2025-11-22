@@ -17,13 +17,12 @@ The app uses speechrecognition to handle spoken commands. Recogniced Speech will
 
 If you contact me by email, your address will never be shared and only used to answer you.
 
+# Changes to this Privacy Policy
+This policy may be updated to reflect changes in technology, legal requirements or data-handling practices. Changes will be listed in section "last updated" on top of this page.
+
 # Contact Me
 If you have any questions about this Privacy Policy, you can contact me by email:
 handsfreelaptimer(at)gmail.com
-
-# Changes to this Privacy Policy
-
-This policy may be updated to reflect changes in technology, legal requirements or data-handling practices. Changes will be listed in section "last updated" on top of this page.
 
 ##
 ## deutsch
@@ -40,9 +39,9 @@ Durch die Nutzung dieser App können von Apple Analyse-Daten für Entwickler erh
 
 Bei Email-Kontakt werden Mail-Adressen ausschließlich für den schriftlichen Austausch genutzt und nicht mit Dritten geteilt.
 
+# Anpassungen der Datenschutz-Richtlinie
+Diese Datenschutz-Richtlinie wird in unregelmäßigen zeitlichen Abständen aktualisiert, um technische Veränderungen der App, rechtliche Bestimmungen oder Änderungen im Umgang mit Benutzerdaten abzubilden.
+
 # Kontakt
 Bei Fragen zu dieser Datenschutz-Richtline kann der Entwickler über folgende Email kontaktiert werden:
 handsfreelaptimer(at)gmail.com
-
-# Anpassungen der Datenschutz-Richtlinie
-Diese Datenschutz-Richtlinie wird in unregelmäßigen zeitlichen Abständen aktualisiert, um technische Veränderungen der App, rechtliche Bestimmungen oder Änderungen im Umgang mit Benutzerdaten abzubilden.
