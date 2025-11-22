@@ -25,7 +25,9 @@ handsfreelaptimer(at)gmail.com
 
 This policy may be updated to reflect changes in technology, legal requirements or data-handling practices. Changes will be listed in section "last updated" on top of this page.
 
-#
+
+
+
 ## deutsch
 
 Diese Datenschutz-Richtlinie beschreibt ob und wie die App "HandsfreeLaptimer - FPV + RC" Informationen nutzt, sammelt, veröffentlicht oder schützt, die bei ihrer Nutzung entstehen.
