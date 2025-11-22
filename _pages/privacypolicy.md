@@ -26,12 +26,13 @@ handsfreelaptimer(at)gmail.com
 This policy may be updated to reflect changes in technology, legal requirements or data-handling practices. Changes will be listed in section "last updated" on top of this page.
 
 ## deutsch
-*zuletzt aktualisiert am: 22. Nov 2025*
 
 Diese Datenschutz-Richtlinie beschreibt ob und wie die App "HandsfreeLaptimer - FPV + RC" Informationen nutzt, sammelt, veröffentlicht oder schützt, die bei ihrer Nutzung entstehen.
 Durch das Herunterladen und Nutzen dieser App erklärt sich die Nutzer:in mit den hier geschilderten Praktiken einverstanden.
 
-# Datenschutz-Richtlinie 
+# Datenschutz-Richtlinie
+*zuletzt aktualisiert am: 22. Nov 2025*
+
 Die App "HandsfreeLaptimer - FPV + RC" sammelt, speichert und übermittelt keinerlei Benutzer-Daten.
 Die App nutzt ein Spracherkennungsmodul, um Sprachbefehle zu erfassen. Erkannte Sprache wird ausschließlich auf dem Gerät für diesen Prozess verarbeitet, wird nicht persistent oder personalisiert gespeichert und verlässt nie das Gerät des Nutzers.
 Durch die Nutzung dieser App können von Apple Analyse-Daten für Entwickler erhoben und verarbeitet werden, sofern dem in den iOS-Systemseinstellungen zugestimmt wurde.
