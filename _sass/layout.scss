@@ -51,8 +51,11 @@
 
 .subPageContainer {
 	grid-template-rows: 115px auto auto auto;
-	// background-color: #fff;
-	background-color: #00ff1e;
+	background-color: #fff;
+	// Testing background for subPages 
+	// background-color: #00ff1e;
+
+	// where is the text color for subPages?
 }
 
 @media only screen and (max-width: 768px) {
