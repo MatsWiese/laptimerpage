@@ -16,7 +16,7 @@ If you contact me by email, your address will never be shared and only used to a
 If you have any questions about this Privacy Policy, you can contact me by email:
 handsfreelaptimer(at)gmail.com
 
-## german
+## deutsch
 
 # Datenschutz-Richtlinie 
 Die App "HandsfreeLaptimer - FPV + RC" sammelt, speichert und übermittelt keinerlei Benutzer-Daten. Durch die Nutzung dieser App können von Apple Analyse-Daten für Entwickler erhoben und verarbeitet werden, sofern dem in den iOS-Systemseinstellungen zugestimmt wurde.
