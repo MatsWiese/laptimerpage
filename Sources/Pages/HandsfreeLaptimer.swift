@@ -7,7 +7,7 @@ struct Feature {
     let icon: String
 }
 
-struct Home: StaticPage {
+struct HandsfreeLaptimer: StaticPage {
     var title = "Handsfree Laptimer"
 
     let features: [Feature] = [
@@ -30,7 +30,9 @@ struct Home: StaticPage {
                             .frame(height: 520)
                         Image(decorative: "/images/screenshotHandsfreeLaptimer.png")
                             .resizable()
-                            .frame(height: 448)
+                            .frame(height: 480)
+                            .style(.borderRadius, "18px")
+                            .padding(.top, 10)
                     }
                 }
                 .width(5)
@@ -87,25 +89,31 @@ struct Home: StaticPage {
         // Features grid
         Section {
             Grid(spacing: .large) {
-                ForEach(features) { feature in
-                    HStack(alignment: .top, spacing: 16) {
-                        Image(systemName: feature.icon, description: feature.title)
-                            .font(.title3)
-                            .foregroundStyle("#00ffff")
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(feature.title)
-                                .font(.title5)
-                                .foregroundStyle("#00ffff")
-                            Text(feature.description)
-                                .foregroundStyle(.light)
-                        }
+              ForEach(features) { feature in
+//                Card {
+                  HStack(alignment: .top, spacing: 16) {
+                    Image(systemName: feature.icon, description: feature.title)
+                      .font(.title3)
+                      .foregroundStyle("#00ffff")
+                    VStack(alignment: .leading, spacing: 4) {
+                      Text(feature.title)
+                        .font(.title5)
+                        .foregroundStyle("#00ffff")
+                      Text(feature.description)
+                        .foregroundStyle(.light)
                     }
-                    .width(4)
-                }
+                  }
+                  .width(4)
+//                }
+//                .role(.info)
+//                .cardStyle(.bordered)
+              }
             }
+            .columns(3)
         }
         .background("#000000")
         .padding(.vertical, 60)
         .padding(.horizontal, 40)
     }
 }
+
