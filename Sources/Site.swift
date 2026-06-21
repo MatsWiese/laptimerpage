@@ -4,7 +4,7 @@ import Ignite
 @main
 struct IgniteWebsite {
     static func main() async {
-        var site = LaptimerPage()
+        var site = MatsWiese()
 
         do {
             try await site.publish()
@@ -14,19 +14,20 @@ struct IgniteWebsite {
     }
 }
 
-struct LaptimerPage: Site {    
-    var name = "Handsfree Laptimer"
-    var favicon = URL(static: "/images/appiconHandsfreeLaptimer.png")
+struct MatsWiese: Site {    
+    var name = "MatsWiese.app"
+//    var favicon = URL(static: "/images/appiconHandsfreeLaptimer.png")
 //    var titleSuffix = "Apps & Projects"
     var url = URL(static: "https://www.matswiese.app")
     var builtInIconsEnabled = true
 
     var author = "Mats Wiese"
 
-    var homePage = HandsfreeLaptimer()
+    var homePage = Home()
     var layout = MainLayout()
 
     @ElementBuilder<any StaticPage> var staticPages: [any StaticPage] {
+        Laptimer()
         PrivacyPolicy()
         LegalNotice()
         Changelog()

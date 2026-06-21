@@ -4,6 +4,7 @@ import Ignite
 struct LegalNotice: StaticPage {
     var title = "Legal Notice"
     var path = "/legalnotice"
+    var layout = AppLayout()
 
     var body: some HTML {
         Section {

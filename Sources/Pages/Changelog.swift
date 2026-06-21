@@ -10,6 +10,7 @@ struct Version {
 struct Changelog: StaticPage {
     var title = "What's New"
     var path = "/changelog"
+    var layout = AppLayout()
 
   let versions: [Version] = [
     Version(versionNumber: "1.0", badgeTitle: "Initial Release", text: "Initial release of Handsfree Laptimer. Feel free to contact me for feature requests."),

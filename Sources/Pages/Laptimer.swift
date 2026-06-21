@@ -7,8 +7,9 @@ struct Feature {
     let icon: String
 }
 
-struct HandsfreeLaptimer: StaticPage {
+struct Laptimer: StaticPage {
     var title = "Handsfree Laptimer"
+    var layout = AppLayout(logoTarget: "/", logoText: "MatsWiese.app")
 
     let features: [Feature] = [
         Feature(title: "Race your Drone",       description: "Fly the track you like!",                                                             icon: "arrow-repeat"),
