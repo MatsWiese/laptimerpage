@@ -16,7 +16,7 @@ struct IgniteWebsite {
 
 struct ExampleSite: Site {    
     var name = "Handsfree Laptimer"
-    var favicon = URL(static: "/images/appiconHandsfreeLaptimer.png")
+    var favicon = URL(static: "/Assets/images/appiconHandsfreeLaptimer.png")
 //    var titleSuffix = "Apps & Projects"
     var url = URL(static: "https://www.matswiese.app")
     var builtInIconsEnabled = true
