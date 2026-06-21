@@ -14,7 +14,7 @@ struct IgniteWebsite {
     }
 }
 
-struct MatsWiese: Site {    
+struct MatsWiese: Site {
     var name = "MatsWiese.app"
 //    var favicon = URL(static: "/images/appiconHandsfreeLaptimer.png")
 //    var titleSuffix = "Apps & Projects"
