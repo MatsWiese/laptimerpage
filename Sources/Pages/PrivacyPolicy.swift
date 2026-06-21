@@ -4,6 +4,7 @@ import Ignite
 struct PrivacyPolicy: StaticPage {
     var title = "Privacy Policy"
     var path = "/privacypolicy"
+    var layout = AppLayout()
 
     var body: some HTML {
         Section {
