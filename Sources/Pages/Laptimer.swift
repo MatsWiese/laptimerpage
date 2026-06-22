@@ -78,6 +78,7 @@ struct Laptimer: StaticPage {
                 }
                 .width(7)
                 .padding(.top, 60)
+                .padding(.leading, 20)
             }
         }
         .style(.backgroundImage, "linear-gradient(rgba(54,59,61,0.8),rgba(54,59,61,0.8)),url('/images/headerimage.jpg')")
