@@ -41,7 +41,16 @@ struct Home: StaticPage {
 
       Section {
 //        AboutMe-Text
-      }
+        Text("Hi guys, welcome to my portfolio.")
+          .font(.title3)
+        // .fontWeight(.thin)
+        .margin(.top, 20)
+        Text("My name is Mats Wiese. Beside sports, I was always interested in technics, computers and stuff. After becoming a sportsscientist and working as a therapist for people with psychosomatic deseases for over a decade, I decided to lean in and learn coding. I started with SwiftUI, because there are enough ideas in my head to build an app for that.")
+            .font(.title4)
+            .fontWeight(.thin)
+            .margin(.top, 20)
+            }
+            
         // Apps grid
         Section {
 //            Grid(spacing: .large) {
