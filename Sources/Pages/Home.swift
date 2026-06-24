@@ -40,6 +40,7 @@ struct Home: StaticPage {
         .padding(.bottom, 60)
 
       Section {
+        VStack(alignement: .center) {
 //        AboutMe-Text
         Text("Hi guys, welcome to my portfolio.")
           .font(.title3)
@@ -50,7 +51,7 @@ struct Home: StaticPage {
             .fontWeight(.thin)
             .margin(.top, 20)
             }
-            
+        }
         // Apps grid
         Section {
 //            Grid(spacing: .large) {
