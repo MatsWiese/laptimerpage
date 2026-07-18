@@ -1,14 +1,21 @@
 import Foundation
 import Ignite
 
-/// Layout for an app section (the Laptimer page and its sub-pages: Privacy
-/// Policy, Legal Notice, What's New). It shows the app-specific navigation and
-/// footer links. The left-side brand button leads to `logoTarget`, which the
-/// page sets: the app's main page uses "/" (back to the portfolio home), while
-/// its sub-pages use "/laptimer" (back up to the app page).
+struct DarkPageBackground: Style {
+    func style(content: StyledHTML, environment: EnvironmentConditions) -> StyledHTML {
+        content.style(.backgroundColor, "#000000")
+    }
+}
+
+/// Layout for the Laptimer app site (the app page at the subdomain root and its
+/// sub-pages: Privacy Policy, Legal Notice, What's New). It shows the
+/// app-specific navigation and footer links. The left-side brand button leads
+/// to `logoTarget`, which the page sets: the app's main page links to the
+/// portfolio home on matswiese.app, while its sub-pages use "/" (back up to the
+/// app page at this subdomain's root).
 struct AppLayout: Layout {
     /// Destination for the navigation bar's brand/logo button.
-    var logoTarget: String = "/laptimer"
+    var logoTarget: String = "/"
     /// Text shown next to the brand/logo. Sub-pages name the app they belong to;
     /// the app's main page (which links back home) overrides this.
     var logoText: String = "Handsfree Laptimer"
@@ -33,7 +40,7 @@ struct AppLayout: Layout {
             }
             .navigationBarStyle(.dark)
             .background("rgba(0,0,0,0.3)")
-            .style(.backdropFilter, "blur(2px)")
+            .style(.backdropFilter, "blur(4px)")
             .position(.fixedTop)
 
             content
