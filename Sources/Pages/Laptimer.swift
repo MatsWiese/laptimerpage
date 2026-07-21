@@ -31,9 +31,9 @@ struct Laptimer: StaticPage {
                             .frame(height: 520)
                         Image(decorative: "/images/screenshotHandsfreeLaptimer.png")
                             .resizable()
-                            .frame(height: 480)
-                            .style(.borderRadius, "18px")
-                            .padding(.top, 10)
+                            .frame(height: 500)
+                            .style(.borderRadius, "22px")
+                            .padding(.top, 4)
                     }
                 }
                 .width(5)
