@@ -62,19 +62,6 @@ struct Laptimer: StaticPage {
                             .frame(height: 60)
                     }
                     .margin(.top, 30)
-                    HStack(alignment: .center, spacing: 12) {
-                        Link(target: "https://testflight.apple.com/join/2s8kNggV") {
-                            Image(decorative: "/images/testflighticon.png")
-                                .frame(width: 40, height: 40)
-                                .style(.borderRadius, "9px")
-                        }
-                        .linkStyle(.underline(UnderlineProminence.none, hover: .none))
-                        Link("Try the RaceTrack-Designer in TestFlight", target: "https://testflight.apple.com/join/2s8kNggV")
-                            .linkStyle(.underline(UnderlineProminence.none, hover: .none))
-                            .foregroundStyle(.light)
-                            .fontWeight(.bold)
-                    }
-                    .margin(.top, 16)
                 }
                 .width(7)
                 .padding(.top, 60)
@@ -88,6 +75,39 @@ struct Laptimer: StaticPage {
         .padding(.top, 80)
         .padding(.bottom, 60)
 
+      Section {
+        Grid(spacing: .large) {
+          VStack(alignment: .center) {
+            Text("Currently in Beta:")
+              .font(.lead)
+              .fontWeight(.bold)
+              .foregroundStyle(.light)
+            
+            Text("A RaceTrack-Designer for FPV-Racing. Create your own track and let an animated drone fly through it.")
+              .padding(.bottom, 20)
+            
+            Embed(youTubeID: "bQwiCjqMjFM", title: "RaceTrack-Designer")
+              .aspectRatio(.r16x9)
+            
+            HStack(alignment: .center, spacing: 12) {
+              Link(target: "https://testflight.apple.com/join/2s8kNggV") {
+                Image(decorative: "/images/testflighticon.png")
+                  .frame(width: 40, height: 40)
+                  .style(.borderRadius, "9px")
+              }
+              .linkStyle(.underline(UnderlineProminence.none, hover: .none))
+              Link("Try the RaceTrack-Designer in TestFlight", target: "https://testflight.apple.com/join/2s8kNggV")
+                .linkStyle(.underline(UnderlineProminence.none, hover: .none))
+                .foregroundStyle(.light)
+                .fontWeight(.bold)
+            }
+            .padding(.top, 20)
+          }
+          .width(8)
+          .padding(.top, 40)
+        }
+      }
+      
         // Features grid
         Section {
             Grid(spacing: .large) {
@@ -114,7 +134,7 @@ struct Laptimer: StaticPage {
             .columns(3)
         }
         .background("#000000")
-        .padding(.vertical, 60)
+        .padding(.vertical, 40)
         .padding(.horizontal, 40)
     }
 }
